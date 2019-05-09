@@ -6,7 +6,7 @@
  * Time: 16:15
  */
 
-namespace App\Services;
+namespace Mail_sender;
 
 
 use Mail_sender\Exceptions\MailIsNotValidException;
