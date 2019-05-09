@@ -1,0 +1,19 @@
+{
+  "name": "slavomirsedlak/mail_sender",
+  "description": "Package for sending mail with validation",
+  "authors": [
+    {
+      "name": "Slavomir",
+      "email": "slv.sedlak@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Mail_sender": "src/"
+    }
+  }
+}
