@@ -25,7 +25,7 @@ class SendMailService
         if (!filter_var($mail, FILTER_VALIDATE_EMAIL)) {
             throw new MailIsNotValidException('Mail is not in valid format');
         }
-        //mail($mail, $head,$mailContent);
+        mail($mail, $head,$mailContent);
         return true;
     }
 }
